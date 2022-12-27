@@ -1,0 +1,62 @@
+body {
+    padding: 10px;
+}
+
+.logo {
+    height: 100px;
+    width: 100%;
+}
+
+.background {
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.navigation div {
+    width: 23%;
+    height: 40px;
+}
+
+.inner {
+    display: flex;
+    height: 500px;
+    margin-top: 20px;
+    column-gap: 20px;
+}
+
+.about {
+    height: 100%;   
+    width: 60% !important;
+}
+
+.quick_links_parent {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.quick_links{
+    flex: 1;
+}
+
+.sitePlan{
+    margin-top: 20px;
+    height: 180px;
+    width: 100%;
+}
